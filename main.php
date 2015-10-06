@@ -1,6 +1,8 @@
 <?php
+//require "Hello.php";
 
-require__DIR__ ."hello.php";
+require __DIR__ . "/Hello.php";
+
 
 $greetings = new Hello();
 
