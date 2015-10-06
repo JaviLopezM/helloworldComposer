@@ -6,14 +6,19 @@
  * Date: 6/10/15
  * Time: 19:32
  */
-require __DIR__ . "/vendor/autoload.php";
+
+namespace Com\Iesebre\Dam2\javilopez\helloworldcomposer;
+
+use Faker\Factory;
+
+require __DIR__ . "/../vendor/autoload.php";
 
 class Hello
 {
     public $faker;
     public function  __construct()
     {
-        $this->faker = Faker\Factory::create();
+        $this->faker = Factory::create();
     }
 
     public function sayHello()
