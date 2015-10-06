@@ -6,11 +6,11 @@
  * Date: 6/10/15
  * Time: 19:32
  */
-class hello
+class Hello
 {
-    public function hello()
+    public function sayHello()
     {
         echo "hola mon!\n";
     }
-)
+
 }

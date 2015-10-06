@@ -1,8 +1,7 @@
 <?php
 
-require__DIR__ . "/hello.php";
+require__DIR__ ."hello.php";
 
-$greetings = new hello()
-;
+$greetings = new Hello();
 
-$greetings->sayhello();
+$greetings->sayHello();

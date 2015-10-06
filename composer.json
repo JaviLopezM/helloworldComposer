@@ -1,0 +1,12 @@
+{
+    "name": "javilopez/helloworld-composer",
+    "authors": [
+        {
+            "name": "Javi",
+            "email": "javierlopez1@iesebre.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/Faker": "^1.5"
+    }
+}
